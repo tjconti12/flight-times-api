@@ -1,0 +1,3 @@
+CREATE DATABASE flight;
+CREATE USER flightuser WITH PASSWORD 'flight';
+GRANT ALL PRIVILEGES ON DATABASE flight TO flightuser;
